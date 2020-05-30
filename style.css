@@ -1,0 +1,110 @@
+.steering {
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+}
+
+.clutch {
+  height: 60vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gear {
+  height: 60vh;
+}
+
+.clutch__image {
+  width: 450px;
+  height: 300px;
+  -webkit-box-shadow: 200px 60px #5368df;
+          box-shadow: 200px 60px #5368df;
+  border-radius: 0px 0px 0px 100px;
+}
+
+.gear__image {
+  width: 450px;
+  height: 300px;
+  -webkit-box-shadow: -200px 50px #5368df;
+          box-shadow: -200px 50px #5368df;
+  border-radius: 0px 0px  100px 0px;
+}
+
+.Suppresser {
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  background-color: #252b46;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.new {
+  margin-right: 700px !important;
+}
+
+.old {
+  margin-left: 50px !important;
+}
+
+.Solid {
+  height: 45vh;
+  background-color: #5368df;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Diet {
+  margin-top: 23px;
+}
+
+.Modi {
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+}
+
+.break {
+  height: 90vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.corona {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

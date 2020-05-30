@@ -1,0 +1,84 @@
+$SoftBlue: hsl(231, 69%, 60%);
+$SoftRed: hsl(0, 94%, 66%);
+$GrayishBlue: hsl(229, 8%, 60%);
+$VeryDarkBlue: hsl(229, 31%, 21%);
+$Fontsize: 18px;
+$font-family: 'Rubik',sans-serif;
+$Weightsnormal: 400;
+$Weightsnormal: 500;
+.steering {
+    font-weight: $Weightsnormal;
+    font-family: $font-family;
+    font-size: 12px;
+}
+.clutch {
+    height:60vh;
+    justify-content: center;
+}
+
+.gear {
+    height:60vh;
+}
+
+.clutch__image {
+    width:450px;
+    height:300px;
+    box-shadow:200px 60px $SoftBlue;
+    border-radius: 0px 0px 0px 100px;
+}
+
+.gear__image {
+    width:450px;
+    height:300px;
+    box-shadow:-200px 50px $SoftBlue;
+    border-radius: 0px 0px  100px 0px;
+}
+
+.Suppresser {
+    font-weight: $Weightsnormal;
+    font-family: $font-family;
+    font-size: 12px;
+    background-color: $VeryDarkBlue;
+    justify-content: space-between;
+}
+
+.new {
+    margin-right: 700px !important;
+}
+.old {
+    margin-left: 50px !important;
+}
+
+.Solid {
+    height : 45vh;
+    background-color: $SoftBlue;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.Diet {
+    margin-top: 23px;
+}
+.Modi {
+    height:100vh;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-weight: $Weightsnormal;
+    font-family: $font-family;
+    font-size: 12px;
+    
+}
+
+.break {
+    height:90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
